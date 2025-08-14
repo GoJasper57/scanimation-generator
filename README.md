@@ -9,3 +9,6 @@ Generate an interlaced “scanimation” base image from a sequence of frames, p
 ```bash
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+
+## Input
+Put your ordered frames into ./frames (natural sort: 1,2,10…).
