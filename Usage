@@ -1,0 +1,6 @@
+python make_scanimation.py \
+  --dir ./frames \
+  --slice 1 \
+  --direction vertical \
+  --out-base base.png \
+  --out-mask mask.png
